@@ -6,4 +6,4 @@ async function denoHandleRequest(req: Request): Promise<Response> {
   return handleRequest(req);
 };
 
-Deno.serve({ port: 80 },denoHandleRequest); 
+Deno.serve({ port: 8080 },denoHandleRequest); 
